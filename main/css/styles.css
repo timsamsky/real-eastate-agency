@@ -1,0 +1,83 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.row {
+	display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+/* HEADER */
+
+header {
+	background: #3b4050;
+	text-align: center;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+}
+
+header a {
+	
+}
+
+  /* navigation */
+nav {
+}
+.nav {
+	display: flex;
+  	justify-content: space-between;
+  	flex-grow: 1;
+}
+
+nav ul {
+}
+.nav-list {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+nav li {
+}
+.nav-item {
+	margin-bottom:;
+	margin-left: 1rem;
+}
+
+nav li a {
+}
+.nav-link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.logo {
+	font-size: 1.35rem;
+}
+
+/* HERO */ 
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url("../img/hero-house.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    position: relative;
+}
